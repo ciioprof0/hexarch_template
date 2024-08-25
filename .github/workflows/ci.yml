@@ -22,7 +22,7 @@ jobs:
       
       - name: Run the tests
         run: |
-          docker run -i ${IMAGE_NAME}:${TAG} bash -c "pytest tests --junitxml=results.xml"
+          docker run -i ${IMAGE_NAME}:${TAG} bash -c "pytest ./tests --junitxml=results.xml"
       
       - name: Upload test results
         uses: actions/upload-artifact@v2
