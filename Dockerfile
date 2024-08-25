@@ -2,7 +2,7 @@
 FROM python:3.12-slim
 
 # Set the working directory in the container.
-WORKDIR .
+WORKDIR /project-root
 
 # Copy the requirements.txt first to leverage Docker cache.
 COPY requirements.txt .

@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 @app.route('/api', methods=['GET'])
 def api_home():
+    """API home route."""
     return jsonify({"message": "Hello, HexArch!"})
 
 if __name__ == "__main__":
