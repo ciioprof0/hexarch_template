@@ -1,6 +1,6 @@
 # HexArch Template
 
-This repository provides a foundational template for building applications following the Hexagonal Architecture (also known as Ports and Adapters Architecture). It includes provisions for common components such as web entry points, data storage, and machine learning (ML) models, along with a structured approach to organizing tests, configuration files, and documentation.
+This repository provides a foundational template for building applications following the Hexagonal Architecture (also known as Ports and Adapters Architecture) following general guidance in [*Architecture Patterns with Python*](https://learning.oreilly.com/library/view/architecture-patterns-with/9781492052197/) with additions for data science, machine learning, and natural language process (NLP) workflows. It includes provisions for common components such as web entry points, data storage, and machine learning (ML) models, along with a structured approach to organizing tests, configuration files, and documentation.
 
 ## Directory Structure
 
