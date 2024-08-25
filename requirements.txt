@@ -11,5 +11,6 @@ pytest==8.3.2               # for testing
 python-dotenv==1.0.1        # for loading environment variables
 # requests==2.32.3            # for making HTTP requests
 # selenium==4.23.1            # for browser automation
+setuptools==73.0.1          # for packaging
 # spacy==3.7.6                # for natural language processing
 # SQLAlchemy==2.0.32          # for database ORM

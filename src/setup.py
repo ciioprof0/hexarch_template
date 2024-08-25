@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 # src/setup.py
 
-""" This module makes the package installable. """
+""" This module makes the package installable with `pip`. """
 
 from setuptools import setup, find_packages
 
 # Minimal setup.py file
 setup(
-    name='display_name',
+    name='your_package_name',
     version='0.1',
     packages=['subfolder1', 'subfolder2'],
     # Automatically find packages, exclude tests
