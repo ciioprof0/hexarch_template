@@ -59,7 +59,7 @@ hexarch_template/
 To begin using this template, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/hexarch_template.git
+git clone https://github.com/ciioprof0/hexarch_template.git
 cd hexarch_template
 ```
 
