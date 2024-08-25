@@ -5,7 +5,7 @@ flask==3.0.3                # for the web server
 # flask-migrate==4.0.7        # for database migrations
 # html2text==2024.2.26        # for converting HTML to Markdown
 httpx==0.27.0               # for making HTTP requests
-mypy==1.11.3                # for static type checking
+mypy==1.11.2                # for static type checking
 pytest==8.3.2               # for testing
 # pytest-mock==3.14.0         # for mocking in tests
 python-dotenv==1.0.1        # for loading environment variables
