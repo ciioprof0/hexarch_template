@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 setup(
     name='your_package_name',
     version='0.1',
-    packages=['subfolder1', 'subfolder2'],
+    packages=['your_pkg_name'],
     # Automatically find packages, exclude tests
     # packages=find_packages(exclude=['tests*', 'migrations']),
 )
