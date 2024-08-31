@@ -1,3 +1,3 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#src/service_layer/__init__.py
+#src/your_pkg/name/service_layer/__init__.py
