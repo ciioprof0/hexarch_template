@@ -5,7 +5,7 @@
 """ Unit tests for the API module. """
 
 import pytest
-from src.entrypoints.api.app import app
+from src.your_pkg_name.entrypoints.api.app import app
 
 @pytest.fixture
 def client():
