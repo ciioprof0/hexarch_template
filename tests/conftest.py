@@ -18,7 +18,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, clear_mappers
 from tenacity import retry, stop_after_delay
 
-from your_pkg_name import config
+# from your_pkg_name import config
 # from your_pkg_name import metadata, start_mappers
 
 # Add the project root (CWD) to sys.path
