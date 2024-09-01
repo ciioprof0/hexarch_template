@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#src/config.py
+#src/your_pkg_name/config.py
 
 """This module contains the configuration variables for the application."""
 
 import os
+
 
 class Config:
     """Set Flask configuration vars from .env file."""
