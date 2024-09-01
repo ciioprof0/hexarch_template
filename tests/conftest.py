@@ -5,18 +5,18 @@
 """ Pytest configuration file. """
 
 import os
-import shutil
-import subprocess
+# import shutil
+# import subprocess
 import sys
-import time
-from pathlib import Path
+# import time
+# from pathlib import Path
 
-import pytest
-import redis
-import requests
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, clear_mappers
-from tenacity import retry, stop_after_delay
+# import pytest
+# import redis
+# import requests
+# from sqlalchemy import create_engine
+# from sqlalchemy.orm import sessionmaker, clear_mappers
+# from tenacity import retry, stop_after_delay
 
 # from your_pkg_name import config
 # from your_pkg_name import metadata, start_mappers
