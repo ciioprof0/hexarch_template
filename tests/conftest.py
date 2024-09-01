@@ -24,8 +24,8 @@ from tenacity import retry, stop_after_delay
 # Add the project root (CWD) to sys.path
 sys.path.insert(0, os.path.abspath(os.getcwd()))
 
-# Register the custom assertion module
-pytest.register_assert_rewrite("tests.e2e.api_client")
+# # Register the custom assertion module
+# pytest.register_assert_rewrite("tests.e2e.api_client")
 
 # @pytest.fixture
 # def in_memory_sqlite_db():
